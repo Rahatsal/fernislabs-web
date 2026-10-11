@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="tr">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data:; style-src &#39;self&#39; &#39;unsafe-inline&#39;; font-src &#39;self&#39;; script-src &#39;none&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;none&#39;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <title>Gizlilik Politikası | Sinyal</title>
+    <meta name="description" content="Sinyal Gizlilik Politikası (Fernis Labs)">
+    <link rel="canonical" href="https://fernislabs.com/sinyal/privacy/">
+    <link rel="alternate" hreflang="tr" href="https://fernislabs.com/sinyal/privacy/"><link rel="alternate" hreflang="en" href="https://fernislabs.com/en/sinyal/privacy/">
+    <link rel="alternate" hreflang="x-default" href="https://fernislabs.com/sinyal/privacy/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Fernis Labs">
+    <meta property="og:title" content="Gizlilik Politikası | Sinyal">
+    <meta property="og:description" content="Sinyal Gizlilik Politikası (Fernis Labs)">
+    <meta property="og:url" content="https://fernislabs.com/sinyal/privacy/">
+    <meta property="og:locale" content="tr_TR">
+    <meta name="theme-color" content="#F1F4EF">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">İçeriğe geç</a>
+    
+  <header class="site-header">
+    <a class="wordmark" href="/">
+  <svg class="mark" width="28" height="28" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+    <path class="mark__stem" d="M32 60 C32 46 30 36 34 27 C38 18 47 15 52 20 C57 25 54 33 47 34 C41 35 38 29 41 25 C43 22 47 23 47 26" pathLength="1" />
+    <path class="mark__leaf" d="M32 52 C25 51 20 47 18 42" pathLength="1" /><path class="mark__leaf" d="M32 52 C38 52 42 49 44 45" pathLength="1" /><path class="mark__leaf" d="M32 44 C26 43 22 39 21 35" pathLength="1" /><path class="mark__leaf" d="M32 44 C37 43 40 40 41 37" pathLength="1" /><path class="mark__leaf" d="M33 36 C28 35 25 31 25 28" pathLength="1" />
+  </svg><span>Fernis Labs</span></a>
+    <nav class="site-nav" aria-label="Fernis Labs">
+      <a href="/#apps">Uygulamalar</a>
+      <a href="/#contact">İletişim</a>
+      <a class="lang" href="/en/sinyal/privacy/" hreflang="en" lang="en">English</a>
+    </nav>
+  </header>
+    <main id="main">
+  <div class="page doc">
+    
+  <nav class="crumbs" aria-label="Konum">
+    <ol>
+      <li><a href="/">Fernis Labs</a></li>
+      <li><a href="/sinyal/">Sinyal</a></li><li aria-current="page">Gizlilik Politikası</li>
+    </ol>
+  </nav>
+    <h1>Gizlilik Politikası</h1>
+    <p class="doc__updated">Son güncelleme: <time datetime="2026-10-11">11 Ekim 2026</time></p>
+    <div class="doc__grid">
+      <article class="prose"><p>Bu metin, iOS ve Android için Sinyal mobil uygulamasının (“Sinyal”, “biz”) hangi bilgileri işlediğini, bunu neden yaptığını, bilgileri kimlerle paylaştığını, ne kadar süre sakladığını ve sizin hangi haklara sahip olduğunuzu anlatır. Uygulama ve bu web sayfaları için geçerlidir. Aynı zamanda 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) 10. maddesi kapsamındaki aydınlatma metni olarak hazırlanmıştır. Fotoğraf ve videolarınızın gönderilmesine ilişkin açık rızanız ise bu metinden ayrı olarak, her analizden önce uygulama içinde alınır.</p>
+
+<div class="note">
+<strong>Kısaca</strong>
+<ul>
+<li>Fotoğraf ve videolarınızı saklamayız. Yalnızca analizinizi üretmek için sunucumuza, oradan da Google’ın Gemini API’sine gönderilirler.</li>
+<li>Raporlar metin olarak tutulur ve telefonunuzda kalır. “Raporlarımı hesabıma yedekle” seçeneğini açmadığınız sürece sunucuya gitmez; bu seçenek varsayılan olarak kapalıdır.</li>
+<li>Reklam yok, kişisel veri satışı yok, uygulamada üçüncü taraf analitik SDK’sı yok.</li>
+<li>Sinyal Avı oyununu oynarsanız avcı adınız, avatarınız ve sezon XP’niz sıralamada diğer oyunculara görünür; e-posta adresiniz asla görünmez.</li>
+<li>Hesabınızı ve eşitlenen tüm verilerinizi istediğiniz zaman uygulamanın içinden silebilirsiniz.</li>
+</ul>
+</div>
+
+<nav class="toc" aria-label="İçindekiler">
+<h2>İçindekiler</h2>
+<ol>
+<li><a href="#controller">Veri sorumlusu</a></li>
+<li><a href="#account">Hesabınız</a></li>
+<li><a href="#media">Fotoğraflar, videolar ve yapay zekâ analizi</a></li>
+<li><a href="#server">Sunucularımızda neler tutuluyor</a></li>
+<li><a href="#game">Sinyal Avı ve sıralama</a></li>
+<li><a href="#device">Cihazınızda kalanlar</a></li>
+<li><a href="#subscriptions">Abonelik ve ödemeler</a></li>
+<li><a href="#providers">Hizmet sağlayıcılar</a></li>
+<li><a href="#transfers">Yurt dışına aktarım</a></li>
+<li><a href="#retention">Saklama süreleri</a></li>
+<li><a href="#legal-bases">Hukuki sebepler</a></li>
+<li><a href="#security">Güvenlik</a></li>
+<li><a href="#rights">Haklarınız (KVKK ve GDPR)</a></li>
+<li><a href="#others">Fotoğraf ve videolardaki diğer kişiler</a></li>
+<li><a href="#limits">Bir analiz neyi söyleyebilir, neyi söyleyemez</a></li>
+<li><a href="#children">Yaş sınırı</a></li>
+<li><a href="#not-do">Yapmadığımız şeyler</a></li>
+<li><a href="#changes">Bu politikadaki değişiklikler</a></li>
+<li><a href="#contact">İletişim</a></li>
+</ol>
+</nav>
+
+<h2 id="controller">1. Veri sorumlusu</h2>
+<p>Sinyal, Fernis Labs adıyla faaliyet gösteren Ferhat Gör (Fernis Labs, şahıs işletmesi; Avcılar Vergi Dairesi, vergi no. 4090798320), Tahtakale Mah. Gülfidan Sk. No: 3 İç Kapı No: 1, Avcılar / İstanbul, Türkiye tarafından yayımlanır. Bu kişi, KVKK ve uygulandığı durumlarda AB/Birleşik Krallık Genel Veri Koruma Tüzüğü (“GDPR”) kapsamında bu metinde anlatılan kişisel verilerin veri sorumlusudur.</p>
+<p>Gizlilikle ilgili tüm konular için: <a href="mailto:destek@fernislabs.com">destek@fernislabs.com</a></p>
+<p>Veri sorumlusu, Kişisel Verileri Koruma Kurulu’nun belirlediği istisna kriterleri (yıllık çalışan sayısı 50’den az olan ve ana faaliyet konusu özel nitelikli kişisel veri işlemek olmayan veri sorumluları) kapsamında Veri Sorumluları Sicili’ne (VERBİS) kayıt yükümlülüğünden muaftır; bu nedenle irtibat kişisi atanmamıştır. Sinyal şu anda Avrupa Birliği ve Birleşik Krallık’ta sunulmamaktadır; bu bölgelerde sunulmaya başlanırsa GDPR md. 27 kapsamında bir temsilci atanır ve bu metin güncellenir.</p>
+
+<h2 id="account">2. Hesabınız</h2>
+<p>Sinyal’i kullanmak için bir hesap gerekir. Google hesabınızla, Apple ile (iPhone ve iPad’de) ya da e-posta adresi ve şifreyle giriş yapabilirsiniz. Giriş işlemleri Google LLC’nin bir hizmeti olan <strong>Firebase Authentication</strong> üzerinden yürütülür.</p>
+<p>Firebase şu bilgileri saklar:</p>
+<ul>
+<li>hesap kimliğiniz (UID adı verilen rastgele bir tanımlayıcı),</li>
+<li>e-posta adresiniz,</li>
+<li>varsa görünen adınız,</li>
+<li>hangi yöntemle giriş yaptığınız (Google, Apple veya e-posta).</li>
+</ul>
+<p>E-posta ve şifreyle giriş yapıyorsanız şifreniz Firebase Authentication tarafından yönetilir; kendi veritabanımızda tutulmaz. E-posta ile açılan hesapların, yapay zekâ özelliklerini kullanmadan önce e-posta adresini doğrulaması gerekir. Doğrulama ve şifre sıfırlama e-postalarını Firebase gönderir.</p>
+<p><strong>Neden:</strong> hesabınızı oluşturmak ve korumak, tercihlerinizi, ilerlemenizi ve aboneliğinizi size bağlamak, planınızın kullanım sınırlarını uygulamak için.</p>
+
+<h2 id="media">3. Fotoğraflar, videolar ve yapay zekâ analizi</h2>
+<h3>Analiz başlattığınızda ne olur</h3>
+<ol>
+<li>Bir fotoğraf (beden dili analizi) ya da iki fotoğraf veya en fazla 10 saniyelik bir video (uyum analizi) seçersiniz.</li>
+<li>Uygulama bu içeriği şifreli HTTPS bağlantısıyla, Güney Kore’nin Seul bölgesinde (ap-northeast-2) çalışan <strong>Supabase</strong> (Supabase Inc.) altyapısındaki sunucumuza yükler.</li>
+<li>Sunucumuz içeriği Google’ın <strong>Gemini API</strong> hizmetine (Google LLC) iletir; Gemini yapılandırılmış bir metin analizi döndürür.</li>
+<li>Size bir metin rapor gelir: gözlemler, olası yorumlar ve alternatif açıklamalar. Raporda fotoğraf ya da video bulunmaz.</li>
+</ol>
+<h3>Açık rızanız</h3>
+<p>Herhangi bir içerik gönderilmeden önce uygulama, bu içeriğin Google Gemini tarafından işleneceğini açıklar ve o analiz için açık rızanızı ister. Rıza vermezseniz hiçbir içerik gönderilmez ve analiz başlamaz. Sinyal’i kullanmaya başlarken ayrıca yalnızca paylaşma izniniz olan içerikleri kullanmayı ve çocukların içeriklerini asla kullanmamayı kabul edersiniz; bunu kontrol edemeyiz, sorumluluğu size aittir. Rıza her analiz için ayrı alınır; uygulamadaki onay ifadesi örneğin şöyledir: “Bu görselin analiz için yapay zekâ hizmet sağlayıcımıza gönderilmesini onaylıyorum.” Süregelen bir rıza bulunmadığından, bir sonraki analizde onay vermeyerek dilediğiniz zaman vazgeçebilirsiniz. Gönderilmiş içerik Sinyal tarafından saklanmadığı için geri çekilmesi gereken bir kopya da tutulmaz.</p>
+<h3>Videolar</h3>
+<p>Videolar yüklenmeden önce cihazınızda sıkıştırılabilir. Video bu şekilde yeniden kodlandığında ses kaydı çıkarılır. Küçük videolar ise seçtiğiniz haliyle yüklenebilir; bu durumda varsa sesiyle birlikte orijinal dosya gönderilir.</p>
+<h3>İçeriğinizi saklamayız</h3>
+<p>Sinyal ham fotoğraf ve videoları saklamaz: geçmişinizde, hesabınızda ya da veritabanımızda tutulmazlar. Yalnızca istediğiniz analizi üretmek için kullanılırlar.</p>
+<h3>Google’ın rolü</h3>
+<p>Google, içeriği ve isteği Gemini API koşulları çerçevesinde hizmet sağlayıcı olarak işler. Google’ın API verilerini nasıl ele aldığı bizim değil, Google’ın kendi koşullarına tabidir: <a href="https://ai.google.dev/gemini-api/terms">https://ai.google.dev/gemini-api/terms</a></p>
+<p>Sunucumuz bir fotoğrafı veya videoyu Google’a iletmeden önce dosyaya gömülü konum (EXIF/GPS), kamera ve cihaz bilgileri ve yorumlar gibi üst verileri kaldırır. Bu; JPEG, PNG, WebP ve iPhone’lardan gelen HEIC fotoğraflar ile MP4 ve MOV videolar için geçerlidir. Yapısı okunamayan nadir bir dosya bu temizlik yapılmadan iletilebilir. Videolar sesini içerebilir.</p>
+<h3>Yapay zekâ koçu (Pro)</h3>
+<p>AI Coach’a bir soru sorduğunuzda; sorunuz, aynı sohbetteki son en fazla 12 mesaj ve ilgili raporun metni, yanıt üretilmesi için sunucumuz üzerinden Google Gemini API’ye gönderilir. Fotoğraf veya video gönderilmez. Koç sohbetleri sunucumuzda veya cihazınızda saklanmaz; raporu kapattığınızda silinir.</p>
+
+<h2 id="server">4. Sunucularımızda neler tutuluyor</h2>
+<p>Veritabanımız bir Supabase Postgres veritabanıdır. Aşağıdaki kayıtlar yalnızca sunucu kodumuzun erişebildiği özel bir şemada tutulur; uygulama bunları doğrudan okuyamaz.</p>
+<ul>
+<li><strong>Kullanım ve istek sınırı sayaçları</strong> (hesap kimliğinize bağlı). Planınızın günlük sınırlarını (analizler, bunların kaçının video olduğu ve Pro için AI Coach mesajları) uygulamak ve hizmeti kötüye kullanıma karşı korumak için tutulur. Günlük kullanım kayıtları en fazla 3 gün içinde silinir.</li>
+<li><strong>Yeniden deneme kayıtları.</strong> Her analiz isteği için bir istek tanımlayıcısı, isteğin parmak izi (aynı isteğin yeniden denendiğini tanımak için yüklenen içerikten hesaplanan tek yönlü bir özet; fotoğraf veya video bundan geri elde edilemez), deneme sayısı ve yapılandırılmış analiz sonucu en fazla 24 saat saklanır. Bağlantınız koparsa uygulama, analizi yeniden çalıştırmadan (ve hakkınızdan tekrar düşmeden) sonucu alabilir; bu süre içinde Pro’ya geçerseniz ücretsiz planda oluşturulan bir raporun tam hali açılabilir. Bu kayıtlarda fotoğraf veya video yoktur ve hesabınızı sildiğinizde hemen silinir.</li>
+<li><strong>Ücretsiz tam rapor kaydı.</strong> Her hesabın bir adet ücretsiz tam rapor hakkı vardır; bu hakkın hangi analizde kullanıldığını kaydederiz.</li>
+<li><strong>Profil.</strong> Uygulamayı giriş yapmış olarak açtığınızda oluşturulur ve Profil ekranınızı başka bir telefonda da aynı tutar: seçtiğiniz avatar, avatar değişikliklerinizin zamanları (değişiklik sınırını uygulamak için; yalnızca son 7 gün sayılır), günlük ziyaret seriniz, en iyi seriniz ve uygulamayı en son açtığınız gün (kendi saat diliminize göre takvim günü), tamamladığınız analizlerin sayısı (raporların kendisi değil, yalnızca bir sayı) ve Sinyal Avı oynarsanız avcı adınız.</li>
+<li><strong>Hesap eşitleme profili.</strong> Başka bir telefonda kaldığınız yerden devam edebilmeniz için: sözlükteki öğrenme ilerlemeniz (öğrenilen işaretlerin kimlikleri, tamamlanan koleksiyonlar, ziyaret serisi) ve değiştirdiğiniz tercihler (uygulama dili, “Raporları bu cihazda sakla” ve “Raporlarımı hesabıma yedekle”).</li>
+<li><strong>Rapor yedeği — yalnızca siz açarsanız.</strong> “Raporlarımı hesabıma yedekle” varsayılan olarak kapalıdır. Açıksa yapılandırılmış metin raporlarınız hesabınızla birlikte saklanır; fotoğraf ve videolar hiçbir zaman yedeklenmez. Yedeği kapattığınızda sunucularımızdaki kopyalar silinir. Tek bir raporu sildiğinizde, diğer cihazlarınızın o raporu yeniden yüklememesi için rapor içeriği taşımayan bir işaret kaydı tutarız.</li>
+<li><strong>Sinyal Avı kayıtları — yalnızca oynarsanız.</strong> Avcı adınız, oyun durumunuz, soru geçmişiniz ve sezon puanlarınız. Ayrıntılar 5. bölümdedir.</li>
+</ul>
+<p>Çoğu çevrim içi hizmette olduğu gibi barındırma sağlayıcımız da işletim ve güvenlik amacıyla isteklerin kısa ömürlü teknik kayıtlarını (log) tutar; bunlarda örneğin IP adresi, zaman ve hata bilgileri bulunabilir. Bu kayıtlar barındırma sağlayıcımızın sisteminde en fazla 7 gün tutulur ve sonra otomatik olarak silinir.</p>
+
+<h2 id="game">5. Sinyal Avı ve sıralama</h2>
+<p>Sinyal Avı, hazır soru fotoğraflarında beden dili işaretlerini bulmaya çalıştığınız isteğe bağlı bir oyundur. Sezonluk bir sıralaması (“Gece Uçuşu”) vardır. Oynamak için giriş yapmanız gerekir; e-postayla açılan hesapların e-posta adresini doğrulamış olması gerekir. Soru fotoğraflarını biz hazırlarız: oyunda sizin fotoğraf veya videolarınız kullanılmaz ve oyun verileri Google Gemini’ye ya da başka bir yapay zekâ hizmetine gönderilmez.</p>
+<h3>Sunucumuzda tutulanlar</h3>
+<ul>
+<li><strong>Avcı adı:</strong> ilk sorudan önce seçtiğiniz ve sıralamada görünen ad (2–16 karakter). Gerçek adınızı veya sizi tanıtabilecek bir bilgiyi kullanmamanızı öneririz.</li>
+<li><strong>Avatar:</strong> profilinizde seçtiğiniz baykuş (4. bölümdeki profil kaydında tutulur); sıralamada adınızın yanında görünür.</li>
+<li><strong>Oyun durumu:</strong> canlarınız (baykuşlar) ve ne zaman uyanacakları, serileriniz, bir pratik turundan sonra dinlenmede olup olmadığınız, içinde bulunduğunuz setteki ilerleme, toplam XP’niz, çözdüğünüz soru sayısı, size verilen son en fazla 12 sorunun kimliği, cevap bekleyen soru ve size verildiği an, sıradaki soru ve Pro durumunuzun son kontrol sonucu (en fazla 10 dakika kullanılır, sonra yeniden sorgulanır).</li>
+<li><strong>Soru geçmişi:</strong> size verilen her sorunun kimliği, çözüp çözmediğiniz ve en son ne zaman gösterildiği. Henüz görmediğiniz soruları öne almak için kullanılır.</li>
+<li><strong>Sezon puanları:</strong> her takvim ayı (UTC’ye göre) bir sezondur. Her sezon için XP’niz, puan getiren doğru cevaplarınızın sayısı, en iyi seriniz ve puanınızın en son arttığı an tutulur. Sıranız ve sezon sonu özetiniz bunlardan hesaplanır.</li>
+</ul>
+<p>Verdiğiniz cevapları (dokunduğunuz noktayı veya seçtiğiniz seçeneği) saklamayız: sunucumuz cevabı değerlendirir ve yalnızca sonucunu (XP, seri, can) kaydeder. Cevap hızı telefonunuzun değil sunucumuzun saatine göre ölçülür; bir insanın veremeyeceği kadar hızlı gelen cevaplar kabul edilmez.</p>
+<h3>Diğer oyuncuların gördükleri</h3>
+<p>Bir sezonda XP kazandığınızda o sezonun sıralamasında yer alırsınız. Giriş yapmış diğer oyuncular sıralamada sizinle ilgili yalnızca şunları görür: sıranız, avcı adınız, avatarınız ve o sezonki XP’niz. Sıralama her oyuncuya sezonun ilk 90 oyuncusunu ve kendi yakın çevresindeki birkaç oyuncuyu gösterir; bu yüzden sıranız ne olursa olsun bazı oyuncular sizi görebilir. Yeni bir sezonun ilk 7 gününde geçen sezonun ilk üçü de aynı bilgilerle gösterilir. E-posta adresiniz, giriş sağlayıcınızdan gelen görünen adınız ve hesap kimliğiniz (UID) hiçbir zaman gösterilmez. Avcı adı olmayan bir oyuncu “Gizemli avcı” olarak görünür.</p>
+<h3>Avcı adlarının denetimi</h3>
+<p>Avcı adları kaydedilmeden önce sunucumuzda hakaret ve küfürlere karşı otomatik bir kelime listesiyle denetlenir. “@” işareti içeren adlar kabul edilmez; böylece bir e-posta adresi ad olarak görünemez. Bu denetim her uygunsuz adı yakalamaz; uygunsuz bir ad görürseniz bize yazın.</p>
+<h3>Seçenekleriniz</h3>
+<ul>
+<li>Avcı adınızı istediğiniz zaman uygulamadaki Profil ekranından değiştirebilirsiniz. Avatarınızı da Profil’den, uygulamada gösterilen değişiklik sınırı içinde değiştirebilirsiniz.</li>
+<li>Şu anda sıralamada görünmemeyi seçmeye yarayan ayrı bir ayar yoktur. Sıralamada görünmek istemiyorsanız Sinyal Avı’nda XP kazanmayın.</li>
+<li>Hesabınızı sildiğinizde avcı adınız, avatarınız, oyun durumunuz, soru geçmişiniz ve geçmiş sezonlar dahil tüm sezon puanlarınız hemen silinir; tüm sıralamalardan çıkarsınız. Hesabınızı silmeden oyun verilerinizin silinmesini isterseniz bize yazın.</li>
+</ul>
+<h3>Neden ve ne kadar süre</h3>
+<p>Bu verileri, istediğiniz oyunu ve sıralamayı sunmak (sözleşmenin ifası) ve oyunu hile ile kötüye kullanıma karşı korumak (meşru menfaat) için işleriz. Oyun verileri, geçmiş sezonların puanları dahil, hesabınızı silene kadar saklanır. Avcı adınız değiştirdiğinizde eskisinin yerine geçer.</p>
+
+<h2 id="device">6. Cihazınızda kalanlar</h2>
+<ul>
+<li><strong>Rapor geçmişi:</strong> “Raporları bu cihazda sakla” açıksa (varsayılan olarak açıktır) yapılandırılmış raporlarınız telefonunuzda saklanır. İstediğiniz zaman tek bir raporu ya da tüm raporları silebilirsiniz.</li>
+<li><strong>Sözlük ilerlemesi ve tercihler</strong>, hatırlatma ayarlarınız dahil.</li>
+<li><strong>Günlük hatırlatma:</strong> isteğe bağlı öğrenme hatırlatması, telefonunuzda planlanan yerel bir bildirimdir. Anlık bildirim (push) sunucusu kullanmayız.</li>
+<li><strong>Sinyal Avı sezon özeti:</strong> geçen sezonun özetini bir kez göstermek için, hangi sezonun özetini gördüğünüz telefonunuzda kaydedilir.</li>
+</ul>
+<p>Uygulama cihaz izinlerini (örneğin fotoğraf arşivi veya bildirimler) yalnızca ilgili özellik ihtiyaç duyduğunda ister. Bu izinleri telefonunuzun ayarlarından değiştirebilirsiniz. İstenebilen izinler şunlardır: fotoğraf çekmek ve kısa video kaydetmek için kamera; analiz edilecek fotoğrafı veya videoyu seçmek için fotoğraf arşivi; sözlük hatırlatmaları için bildirimler. iOS, kamerayla video kaydederken mikrofon izni de ister; ses analiz edilmez. Android’de mikrofon izni istenmez.</p>
+
+<h2 id="subscriptions">7. Abonelik ve ödemeler</h2>
+<p>Ödemeler Apple App Store veya Google Play üzerinden yapılır. Kart ya da banka bilgileriniz bize hiçbir zaman ulaşmaz. Abonelik durumunu bizim adımıza <strong>RevenueCat</strong> (RevenueCat Inc.) yönetir: Pro’nun giriş yaptığınız cihazlarda çalışabilmesi için satın alma ve hak bilgilerini (hangi planı aldığınız; satın alma, yenileme ve bitiş tarihleri; mağaza işlem numaraları gibi) Firebase hesap kimliğinize bağlı olarak işler.</p>
+
+<h2 id="providers">8. Hizmet sağlayıcılar</h2>
+<p>Verileri yalnızca Sinyal’i çalıştırmak için ihtiyaç duyduğumuz sağlayıcılarla paylaşırız. Bu sağlayıcılar bizim adımıza, uygulama mağazaları ise sizinle aralarındaki kendi koşulları çerçevesinde hareket eder.</p>
+<div class="table">
+<table>
+<thead><tr><th>Sağlayıcı</th><th>Amaç</th><th>İlgili veriler</th></tr></thead>
+<tbody>
+<tr><td>Google LLC — Firebase Authentication</td><td>Giriş ve hesap yönetimi</td><td>UID, e-posta, görünen ad, giriş yöntemi</td></tr>
+<tr><td>Google LLC — Gemini API</td><td>Yapay zekâ analizinin üretilmesi</td><td>Gönderdiğiniz fotoğraf/videolar ve analiz isteği (<a href="https://ai.google.dev/gemini-api/terms">API koşulları</a>)</td></tr>
+<tr><td>Supabase Inc.</td><td>Sunucu ve veritabanı (ap-northeast-2, Seul)</td><td>Aktarım sırasındaki içerik; 4. ve 5. bölümlerdeki sunucu verileri; teknik kayıtlar</td></tr>
+<tr><td>RevenueCat Inc.</td><td>Abonelik yönetimi</td><td>UID’nize bağlı satın alma ve hak bilgileri</td></tr>
+<tr><td>Apple Inc. / Google LLC — App Store ve Google Play</td><td>Uygulama dağıtımı ve ödemeler</td><td>Kendi gizlilik politikalarına tabi satın alma ve ödeme bilgileri</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Uygulama güncellemelerinin iletilmesi (EAS Update)</td><td>Uygulama bir güncelleme indirirken gönderilen cihaz ve uygulama bilgileri</td></tr>
+</tbody>
+</table>
+</div>
+<p>Kanunen zorunlu olduğunda, örneğin geçerli bir talep üzerine mahkemelere veya yetkili kamu kurumlarına da bilgi verebiliriz.</p>
+
+<h2 id="transfers">9. Yurt dışına aktarım</h2>
+<p>Hizmet sağlayıcılarımız verileri Türkiye dışında, muhtemelen yaşadığınız ülkenin de dışında saklar veya işler: sunucumuz Güney Kore’dedir; Google, RevenueCat, Apple ve Expo ise ABD ve diğer ülkelerden hizmet verir. Türkiye için yeterlilik kararı bulunan bir ülke henüz olmadığından, bu aktarımlar KVKK md. 9 uyarınca Kişisel Verileri Koruma Kurulu’nun ilan ettiği standart sözleşmelere dayanılarak yapılır; standart sözleşmeler imzalandıkları tarihten itibaren beş iş günü içinde Kurum’a bildirilir. GDPR’ın uygulandığı durumlarda sağlayıcıların veri işleme sözleşmelerindeki Standart Sözleşme Maddeleri’ne dayanılır.</p>
+
+<h2 id="retention">10. Saklama süreleri</h2>
+<div class="table">
+<table>
+<thead><tr><th>Veri</th><th>Süre</th></tr></thead>
+<tbody>
+<tr><td>Fotoğraf ve videolar</td><td>Sinyal tarafından saklanmaz; yalnızca isteğiniz işlenirken kullanılır. Google’daki işlenişi Google’ın API koşullarına tabidir.</td></tr>
+<tr><td>Yeniden deneme kayıtları (yapılandırılmış sonuç dahil)</td><td>En fazla 24 saat; hesabınızı sildiğinizde hemen silinir</td></tr>
+<tr><td>Günlük kullanım sayaçları</td><td>En fazla 3 gün</td></tr>
+<tr><td>İstek sınırı sayaçları</td><td>Yaklaşık 20 dakika</td></tr>
+<tr><td>Ücretsiz tam rapor kaydı</td><td>Hesabınızı silene kadar; hesabınızı sildiğinizde hemen silinir</td></tr>
+<tr><td>Profil (avatar, avatar değişiklik zamanları, ziyaret serisi, son ziyaret günü, tamamlanan analiz sayısı)</td><td>Hesabınızı silene kadar; hesabınızı sildiğinizde hemen silinir. 7 günden eski avatar değişiklik zamanları bir sonraki avatar değişikliğinizde silinir.</td></tr>
+<tr><td>Hesap eşitleme profili</td><td>Hesabınızı silene kadar</td></tr>
+<tr><td>Rapor yedeği</td><td>Raporu silene, yedeği kapatana veya hesabınızı silene kadar (içerik taşımayan silme işaretleri hesapla birlikte silinir)</td></tr>
+<tr><td>Sinyal Avı avcı adı</td><td>Değiştirene veya hesabınızı silene kadar; hesabınızı sildiğinizde hemen silinir</td></tr>
+<tr><td>Sinyal Avı oyun durumu, soru geçmişi ve sezon puanları (geçmiş sezonlar dahil)</td><td>Hesabınızı silene kadar; hesabınızı sildiğinizde hemen silinir</td></tr>
+<tr><td>Firebase’deki hesap bilgileri</td><td>Hesabınızı silene kadar</td></tr>
+<tr><td>Sunucu teknik kayıtları</td><td>En fazla 7 gün</td></tr>
+<tr><td>Abonelik kayıtları</td><td>RevenueCat, Apple ve Google tarafından faturalandırma, vergi ve yasal yükümlülükler için gereken süre boyunca</td></tr>
+<tr><td>Cihazınızdaki veriler</td><td>Siz silene, hesabınızı silene veya uygulamayı kaldırana kadar</td></tr>
+<tr><td>Bize gönderdiğiniz e-postalar</td><td>1 yıl</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="legal-bases">11. Hukuki sebepler</h2>
+<p>Kişisel verileriniz uygulama üzerinden, otomatik yollarla toplanır ve aşağıdaki hukuki sebeplere dayanılarak işlenir:</p>
+<ul>
+<li><strong>Sözleşmenin kurulması ve ifası</strong> (KVKK md. 5/2-c; GDPR md. 6/1-b): hesabınız, istediğiniz analizler, eşitleme, rapor yedeği, Sinyal Avı ve sıralaması ile abonelikler.</li>
+<li><strong>Açık rızanız</strong> (KVKK md. 5/1; GDPR md. 6/1-a): fotoğraf ve videolarınızın analiz için Google Gemini’ye gönderilmesi.</li>
+<li><strong>Meşru menfaatimiz</strong> (KVKK md. 5/2-f; GDPR md. 6/1-f): kullanım sınırları, kötüye kullanımın önlenmesi (Sinyal Avı’nda hilenin önlenmesi ve avcı adlarının denetimi dahil), hizmetin güvenli ve çalışır durumda tutulması.</li>
+<li><strong>Hukuki yükümlülükler</strong> (KVKK md. 5/2-ç; GDPR md. 6/1-c): kanunun veri saklamamızı veya paylaşmamızı gerektirdiği durumlar.</li>
+</ul>
+<p><strong>Özel nitelikli kişisel veriler.</strong> Fotoğraf ve videolar kişileri tanımak, kimliklerini belirlemek veya doğrulamak için işlenmez; analiz yalnızca görünen duruş ve jestleri yorumlar. Bir görüntü ancak kişiyi benzersiz şekilde tanımlamaya yarayan özel bir teknik işlemden geçirildiğinde biyometrik veri sayılır; Sinyal böyle bir işlem yapmaz. Yapay zekâya ayrıca sağlık durumu, din, etnik köken, cinsel yönelim gibi hassas özellikler hakkında çıkarım yapmaması açıkça söylenir. Bu nedenle Sinyal, KVKK md. 6 ve GDPR md. 9 kapsamındaki özel nitelikli kişisel verileri kasıtlı olarak işlemez. Başkalarının göründüğü fotoğraf ve videoları yalnızca o kişilerin izniyle yüklemeniz gerekir.</p>
+<p>Analizler yapay zekâ tarafından otomatik olarak üretilir; ancak bu analizleri sizin hakkınızda karar vermek için kullanmayız.</p>
+
+<h2 id="security">12. Güvenlik</h2>
+<p>Uygulama ile sunucumuz arasındaki veriler HTTPS ile iletilir. Sunucu tarafındaki veriler yalnızca sunucu kodumuzun erişebildiği özel bir veritabanı şemasında tutulur; giriş işlemleri Firebase Authentication ile yapılır. Hiçbir sistem kusursuz derecede güvenli değildir; bu yüzden tuttuğumuz veriyi sınırlı tutarız: fotoğraf ve videolarınızı hiç saklamayız.</p>
+
+<h2 id="rights">13. Haklarınız (KVKK ve GDPR)</h2>
+<p>KVKK’nın 11. maddesi uyarınca bize başvurarak şunları talep edebilirsiniz: kişisel verilerinizin işlenip işlenmediğini öğrenmek; işlenmişse buna ilişkin bilgi istemek; işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenmek; yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilmek; eksik veya yanlış işlenmişse düzeltilmesini istemek; silinmesini veya yok edilmesini istemek ve bu işlemlerin verilerin aktarıldığı üçüncü kişilere bildirilmesini istemek; işlenen verilerin münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonuç çıkmasına itiraz etmek; kanuna aykırı işleme nedeniyle zarara uğramanız hâlinde zararın giderilmesini talep etmek.</p>
+<p>GDPR size uygulanıyorsa erişim, düzeltme, silme, işlemeyi kısıtlama, veri taşınabilirliği ve itiraz haklarına sahipsiniz; verdiğiniz rızayı da istediğiniz zaman geri alabilirsiniz (geri alma, öncesindeki işlemleri etkilemez).</p>
+<p><strong>Haklarınızı nasıl kullanırsınız.</strong> Pek çok işlemi uygulamada kendiniz yapabilirsiniz: raporları silmek, yedeği kapatmak, tercihleri ve avcı adınızı değiştirmek veya hesabınızı silmek (<a href="/sinyal/delete-account/">nasıl yapılır</a>). Diğer talepleriniz için tercihen hesabınıza kayıtlı e-posta adresinden <a href="mailto:destek@fernislabs.com">destek@fernislabs.com</a> adresine yazın. Kimliğinizi doğrulamamız gerekebilir. Talebinize en geç 30 gün içinde yanıt veririz.</p>
+<p><strong>Şikâyet.</strong> Türkiye’de Kişisel Verileri Koruma Kurulu’na (<a href="https://www.kvkk.gov.tr">kvkk.gov.tr</a>), GDPR uygulanıyorsa yaşadığınız veya çalıştığınız yerdeki veri koruma otoritesine şikâyette bulunabilirsiniz. Önce bize ulaşıp sorunu çözmemize fırsat tanırsanız memnun oluruz.</p>
+<p><strong>Başvuru yolları.</strong> Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca başvurunuzu Türkçe olarak; ıslak imzalı bir dilekçeyle aşağıdaki posta adresimize, güvenli elektronik imza veya mobil imzayla imzalayarak ya da Sinyal hesabınızda kayıtlı e-posta adresinizden <a href="mailto:destek@fernislabs.com">destek@fernislabs.com</a> adresine iletebilirsiniz. Başvurunuzda adınız, soyadınız, (yazılı başvurularda) imzanız, T.C. kimlik numaranız (yabancıysanız uyruğunuz ve pasaport numaranız), tebligata esas adresiniz ve talebiniz bulunmalıdır. Başvurunuzu niteliğine göre en kısa sürede ve en geç 30 gün içinde ücretsiz olarak sonuçlandırırız.</p>
+
+<h2 id="others">14. Fotoğraf ve videolardaki diğer kişiler</h2>
+<p>Yalnızca kullanma hakkına sahip olduğunuz ve içinde görünen kişilerin paylaşılmasına izin verdiği içerikleri yükleyin. Sinyal’i kullanmaya başlarken bunu ve 18 yaşından küçük kimseyi asla analiz etmemeyi kabul edersiniz; kurallar uygulamanın Ayarlar bölümünde de açıklanır. Bunlara uyulduğunu doğrulayamayız. Fotoğraf ve videoları saklamadığımız için sonradan belirli bir görüntüyü bulup silemeyiz. Raporlar, yükleyen kişinin cihazında ve yedeklemeyi açtıysa onun hesabında tutulur. Birinin sizi izniniz olmadan analiz ettiğini düşünüyorsanız bize yazın; elimizden geldiğince yardımcı oluruz.</p>
+
+<h2 id="limits">15. Bir analiz neyi söyleyebilir, neyi söyleyemez</h2>
+<p>Bir analiz yalnızca görünür işaretleri yorumlar. Kimsenin niyetini, duygularını, doğru söyleyip söylemediğini, kişiliğini, sağlığını ya da bir ilişkinin nasıl sonuçlanacağını kesin olarak belirleyemez; profesyonel, tıbbi, psikolojik, hukuki veya insan kaynakları tavsiyesi değildir. Sinyal’i gözetleme, taciz veya ayrımcılık için ya da birinin işe alınması, kredi veya konut gibi konularda karar vermek için kullanmayın. Kuralların tamamı <a href="/sinyal/terms/">Kullanım Koşulları</a>’nda yer alır.</p>
+
+<h2 id="children">16. Yaş sınırı</h2>
+<p>Sinyal yalnızca 18 yaş ve üzerindeki kişiler içindir; analizleri üreten yapay zekâ hizmetinin koşulları da bunu gerektirir. Çocukların hesap açmasına bilerek izin vermeyiz. Bir çocuğun hesap açtığını düşünüyorsanız bize yazın; hesabı sileriz.</p>
+<p>Çocukların fotoğraf ve videoları analiz edilmemelidir. Sinyal’i kullanmaya başlarken bunu kabul edersiniz; bunu doğrulayamayız. Ek bir önlem olarak, analizi üreten yapay zekâ isteği önce içeriğin açıkça bir çocuk (örneğin bir bebek veya küçük bir çocuk) gösterip göstermediğini kontrol eder. Gösteriyorsa rapor üretilmez ve tutulmaz; istek, hiçbir içerik olmadan yalnızca reddedildi olarak en fazla 24 saat kaydedilir. Bu kontrol kimsenin yaşını belirlemez, ergenleri veya net olmayan görüntüleri kaçırabilir ve bazen bir yetişkinin görüntüsünü de durdurabilir. Kontrol yapay zekâ hizmetinde çalıştığı için, uygulandığı anda içerik Google’a gönderilmiş olur.</p>
+
+<h2 id="not-do">17. Yapmadığımız şeyler</h2>
+<ul>
+<li>Reklam göstermeyiz.</li>
+<li>Kişisel verileri satmayız.</li>
+<li>Uygulamada üçüncü taraf analitik SDK’sı kullanmayız.</li>
+<li>Fotoğraf ve videolarınızı saklamayız.</li>
+</ul>
+
+<h2 id="changes">18. Bu politikadaki değişiklikler</h2>
+<p>Verileri ele alış biçimimizi değiştirirsek bu sayfayı ve en üstteki tarihi güncelleriz. Önemli değişiklikleri yürürlüğe girmeden önce uygulama içinde de duyururuz.</p>
+
+<h2 id="contact">19. İletişim</h2>
+<p>Fernis Labs · Ferhat Gör<br>
+Tahtakale Mah. Gülfidan Sk. No: 3 İç Kapı No: 1, Avcılar / İstanbul, Türkiye<br>
+E-posta: <a href="mailto:destek@fernislabs.com">destek@fernislabs.com</a></p>
+</article>
+      <aside class="doc__aside" aria-label="Sinyal">
+  <ul class="doc-links">
+    
+    <li><a href="/sinyal/support/">Destek</a></li>
+    <li><a href="/sinyal/privacy/" aria-current="page">Gizlilik Politikası</a></li>
+    <li><a href="/sinyal/terms/">Kullanım Koşulları</a></li>
+    <li><a href="/sinyal/delete-account/">Hesap Silme</a></li>
+  </ul></aside>
+    </div>
+  </div></main>
+    
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__studio">
+        <a class="wordmark" href="/">
+  <svg class="mark" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+    <path class="mark__stem" d="M32 60 C32 46 30 36 34 27 C38 18 47 15 52 20 C57 25 54 33 47 34 C41 35 38 29 41 25 C43 22 47 23 47 26" pathLength="1" />
+    <path class="mark__leaf" d="M32 52 C25 51 20 47 18 42" pathLength="1" /><path class="mark__leaf" d="M32 52 C38 52 42 49 44 45" pathLength="1" /><path class="mark__leaf" d="M32 44 C26 43 22 39 21 35" pathLength="1" /><path class="mark__leaf" d="M32 44 C37 43 40 40 41 37" pathLength="1" /><path class="mark__leaf" d="M33 36 C28 35 25 31 25 28" pathLength="1" />
+  </svg><span>Fernis Labs</span></a>
+        <p>İstanbul, Türkiye<br><a href="mailto:destek@fernislabs.com">destek@fernislabs.com</a></p>
+      </div>
+      
+      <nav class="site-footer__col" aria-label="Sinyal">
+        <h2>Sinyal</h2>
+        <a href="/sinyal/">Uygulama sayfası</a>
+        <a href="/sinyal/support/">Destek</a>
+        <a href="/sinyal/privacy/">Gizlilik Politikası</a>
+        <a href="/sinyal/terms/">Kullanım Koşulları</a>
+        <a href="/sinyal/delete-account/">Hesap silme</a>
+      </nav>
+      <nav class="site-footer__col" aria-label="Fernis Labs">
+        <h2>Fernis Labs</h2>
+        <a href="/privacy/">Site gizliliği</a>
+        <a href="/#contact">İletişim</a>
+      </nav>
+    </div>
+    <p class="site-footer__legal">© 2026 Fernis Labs (Ferhat Gör). Tüm hakları saklıdır.</p>
+  </footer>
+  </body>
+</html>
