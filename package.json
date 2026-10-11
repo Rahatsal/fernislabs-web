@@ -1,0 +1,12 @@
+{
+  "name": "fernislabs-web",
+  "private": true,
+  "type": "module",
+  "description": "fernislabs.com: the Fernis Labs studio site, app pages and their legal texts.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && node serve.mjs",
+    "check": "node build.mjs && node scripts/check-links.mjs"
+  }
+}
